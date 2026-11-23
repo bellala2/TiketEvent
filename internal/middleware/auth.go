@@ -9,7 +9,6 @@ import (
 	"github.com/bellala2/TiketEvent/internal/service"
 )
 
-// AuthUser adalah identitas user yang sudah lolos pemeriksaan token.
 type AuthUser struct {
 	ID   string
 	Role string
